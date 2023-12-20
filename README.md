@@ -19,6 +19,9 @@ Open the Jupyter Notebook in the starter code folder named part_1_mars_news.ipyn
 
 Use automated browsing to visit the Mars news siteLinks to an external site.. Inspect the page to identify which elements to scrape.
 
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/5bf78594-077b-43f2-af39-1144e2e888bf)
+
+
 HINT
 Create a Beautiful Soup object and use it to extract text elements from the website.
 
@@ -29,6 +32,8 @@ Store each title-and-preview pair in a Python dictionary and, give each dictiona
 {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
  'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
 Store all the dictionaries in a Python list.
+
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/be72debf-8bb1-4638-ab9e-606376422a51)
 
 Print the list in your notebook.
 
@@ -41,6 +46,9 @@ Use automated browsing to visit the Mars Temperature Data SiteLinks to an extern
 
 HINT
 Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
+
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/73af386b-bfa5-454c-9e66-3470341aed86)
+
 
 Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
@@ -58,12 +66,24 @@ Analyse your dataset by using Pandas functions to answer the following questions
 
 How many months exist on Mars?
 How many Martian (and not Earth) days worth of data exist in the scraped dataset?
+
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/4c575658-ffc5-4381-941b-cbce3117a719)
+
 What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
 Find the average minimum daily temperature for all of the months.
+
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/bdef60eb-53b0-4159-b31d-3c2a7348f429)
+
 Plot the results as a bar chart.
+
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/aa1148d9-1a7d-4139-975c-e7b17cfcfdd7)
+
 Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
 Find the average daily atmospheric pressure of all the months.
 Plot the results as a bar chart.
+
+![image](https://github.com/Dusko2779/BootCamp_data_collection_challenge/assets/134830906/44cb953f-e30a-4f4e-a9bc-f8ded6a84b5b)
+
 About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
 Consider how many days elapse on Earth in the time that Mars circles the Sun once.
 Visually estimate the result by plotting the daily minimum temperature.
